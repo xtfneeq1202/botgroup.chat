@@ -2,52 +2,52 @@
 export const modelConfigs = [
   {
     model: "qwen-plus",
-    apiKey: "DASHSCOPE_API_KEY", // 这里存储环境变量的 key 名称
+    apiKey: "sk-940adf309f794bcbb640af18a63114e5", // 这里存储环境变量的 key 名称
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
     model: "deepseek-v3-250324",
-    apiKey: "ARK_API_KEY",
+    apiKey: "dab8507f-455c-4316-9658-7cee566e5d49",
     baseURL: "https://ark.cn-beijing.volces.com/api/v3"
   },
   {
     model: "hunyuan-turbos-latest",
-    apiKey: "HUNYUAN_API_KEY1",
+    apiKey: "AKIDrvxpbSQLG9ylVD1W0OhrwwrhdcghcMBw",
     baseURL: "https://api.hunyuan.cloud.tencent.com/v1"
   },
   {
     model: "doubao-1-5-lite-32k-250115",//豆包模型|火山引擎接入点（改成自己的）
-    apiKey: "ARK_API_KEY",
+    apiKey: "dab8507f-455c-4316-9658-7cee566e5d49",
     baseURL: "https://ark.cn-beijing.volces.com/api/v3"
   },
   {
     model: "ep-20250306223646-szzkw",//deepseekv火山引擎接入点（改成自己的）
-    apiKey: "ARK_API_KEY1",
+    apiKey: "dab8507f-455c-4316-9658-7cee566e5d49",
     baseURL: "https://ark.cn-beijing.volces.com/api/v3"
   },
   {
     model: "glm-4-air",
-    apiKey: "GLM_API_KEY",
+    apiKey: "b282bb2575824a86b209dc66896a4264.i6N9syYN5CsUWY1Z",
     baseURL: "https://open.bigmodel.cn/api/paas/v4/"
   },
   {
     model: "qwen-turbo",//调度模型
-    apiKey: "DASHSCOPE_API_KEY", // 这里存储环境变量的 key 名称
+    apiKey: "sk-940adf309f794bcbb640af18a63114e5", // 这里存储环境变量的 key 名称
     baseURL: "https://dashscope.aliyuncs.com/compatible-mode/v1"
   },
   {
     model: "deepseek-chat",
-    apiKey: "DEEPSEEK_API_KEY",
+    apiKey: "sk-da30cf9594674d4397594bbe2d9163af",
     baseURL: "https://api.deepseek.com/v1"
   },
   {
     model: "moonshot-v1-8k",
-    apiKey: "KIMI_API_KEY",
+    apiKey: "sk-tNMj6iuV3GZfIPgYERMNdu6rfEh59Tk6Fwvjp8igWaRU1UPo",
     baseURL: "https://api.moonshot.cn/v1"
   },
   {
     model: "ernie-3.5-128k",
-    apiKey: "BAIDU_API_KEY",
+    apiKey: "bce-v3/ALTAK-C6tBBzv3AIrtbhfhkZCSY/5c68197fa033cd53e30e8ac5ccaffd6744b14983",
     baseURL: "https://qianfan.baidubce.com/v2"
   }
 ] as const;
